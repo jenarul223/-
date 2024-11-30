@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+*{
+  box-sizing: border-box;
+  padding: 0.4em;
+}
+body{
+  margin: 20px;
+  font-family: 'AdorshoLipi', Arial, sans-serif;
+}
+.author{
+  display: flex;
+  justify-content: space-between;
+}
+.author p{
+  font-family: cursive;
+  font-size: 2rem;
+  font-weight: 900;
+}
+#dt{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400; 
+  font-size: 2em;
+  color: red;
+}
+h1{
+  font-family: 'AdorshoLipi', Arial, sans-serif;
+  text-align: center;
+}
+.by{
+  margin: 0;
+  padding: 0;
+}
+.f{
+  margin-top: -10px;
+}
+.by67{
+  margin-bottom: -10px;
+  width: 50px;
+  height: auto;
+}
+.lkj{
+  width: 10px;
+  margin-bottom: -8px;
+}
+
+.graph{
+  width: 300px;
+  float: right;
+}
+.fl{
+  display: flex;
+  justify-content: space-around;
+}
+button{
+  background-color: #86ff1d;
+  color: #fff;
+  font-family: Sans-Serif;
+  font-weight: 900;
+  border-radius: 5px;
+}
+button:focus{
+  outline: none;
+}
+button a{
+  font-size: 24px; 
+  text-decoration: none;
+}
+button a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 600px){
+  .fl{
+    display: block;
+  }
+  .graph{
+    float: none;
+  }
+}
